@@ -1,0 +1,36 @@
+* {
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    background-color: cornsilk;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    display: flex;
+    align-items: row;
+}
+
+button {
+    height: 60px;
+    width: 200px;
+    cursor: pointer;
+    font-size: 15px;
+    color: white;
+    background-color: #d10808;
+    border: 0;
+    border-radius: 8px;
+}
+
+img {
+    position: absolute;
+    z-index: -1;
+    height: 100vh;
+    width: 100vw;
+}
