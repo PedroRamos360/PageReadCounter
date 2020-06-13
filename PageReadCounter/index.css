@@ -6,17 +6,6 @@ body {
     background-color: cornsilk;
 }
 
-.content{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.title {
-    display: flex;
-    align-items: row;
-}
-
 button {
     margin-top: 40px;
     height: 60px;
@@ -43,6 +32,21 @@ img {
     width: 100vw;
 }
 
+.content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    display: flex;
+    align-items: row;
+}
+
+.counter {
+    margin-left: 10px;
+}
+
 .timer {
     background-color: rgb(226, 191, 146);
     width: 500px;
@@ -59,8 +63,17 @@ img {
     align-items: center;
 }
 
-.time {
-    margin-top: 10px;
+.clock {
+    display: flex;
+    flex-direction: row;
+}
+
+#hour, #second, #minute {
+    margin-left: 10px;
+}
+
+.time-left {
+    margin-bottom: 0;
 }
 
 @media (max-width: 540px) {
