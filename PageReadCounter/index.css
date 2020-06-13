@@ -41,6 +41,7 @@ img {
 .title {
     display: flex;
     align-items: row;
+    color: cornsilk;
 }
 
 .counter {

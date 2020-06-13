@@ -46,4 +46,4 @@ var x = setInterval(function() {
             document.getElementById("second").textContent = '00'; } 
 }, 1000); 
 
-
+server.listen(3000);
