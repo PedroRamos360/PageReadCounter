@@ -43,7 +43,9 @@ var x = setInterval(function() {
             alert("Acabou o Tempo");
             document.getElementById("hour").textContent ='00'; 
             document.getElementById("minute").textContent ='00';  
-            document.getElementById("second").textContent = '00'; } 
+            document.getElementById("second").textContent = '00'; 
+            buttonElement.disabled = true;
+    } 
 }, 1000); 
 
 server.listen(3000);

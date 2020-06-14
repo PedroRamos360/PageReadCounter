@@ -82,3 +82,21 @@ img {
         width: 400px;
     }
 }
+
+@media (max-width: 420px) {
+    .timer {
+        width: 300px;
+    }
+}
+
+@media (max-width: 350px) {
+    .title {
+        font-size: small;
+    }
+
+    .timer {
+        font-size: small;
+        width: 260px;
+        height: 125px;
+    }
+}
